@@ -1,0 +1,15 @@
+import kotlin.math.sqrt
+fun main() {
+    var number: Int = 
+    var sqrtnumber: Double = sqrt(number.toDouble())
+    for(num in 2..sqrtnumber.toInt()){
+        if(number % num == 0){
+            println("Tiv@ parz che")
+            break
+            
+        } else if(num == sqrtnumber.toInt()){
+            println("Tiv@ parz e")
+        }
+        
+    }
+}
